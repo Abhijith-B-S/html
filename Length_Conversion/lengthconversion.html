@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LENGTH-CONVERSION</title>
+    <link rel="stylesheet" href="lengthconversion.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="center-width">
+            <h2>Length-Converter</h2><br>
+            <p>Please enter a value in any of the given fields to convert to other fields:</p>
+        </div>
+        <div class="length-converter">
+            <div class="fields">
+
+                <div class="field">
+                    <label>CentiMeter</label>
+                    <input type="number" placeholder="cm" id="InputCm" oninput="lengthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+                </div>
+
+                <div class="field ">
+                    <label>Inch</label>
+                    <input type="number" placeholder="inch" id="InputInch" oninput="lengthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+                </div>
+
+                <div class="field">
+                    <label>Meter</label>
+                    <input type="number" placeholder="m" id="InputMeter" oninput="lengthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+                </div>
+
+                <div class="field">
+                    <label>KiloMeter</label>
+                    <input type="number" placeholder="Km" id="InputKm" oninput="lengthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+                </div>
+
+                <div class="field ">
+                    <label>Miles</label>
+                    <input type="number" placeholder="Miles" id="InputMiles" oninput="lengthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+                </div>
+
+                <div class="field ">
+                    <label>Feet</label>
+                    <input type="number" placeholder="Feet" id="InputFeet" oninput="lengthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+                </div>
+
+                <a target="_blank" href="https://i.pinimg.com/originals/f1/98/84/f19884e8d7c63cd2934326b85c3c08bc.gif">Click to Know more about length conversion</a>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="lengthconversion.js "></script>
+
+</body>
+
+</html>
